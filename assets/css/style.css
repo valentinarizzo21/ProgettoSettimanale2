@@ -27,7 +27,7 @@ ul li{
 
 nav ul li a{
     color: white;
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 main{
@@ -63,7 +63,7 @@ h2{
 .article2{
     background-color: #ffffff;
     height: 55vh;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
 
 }
 
@@ -75,12 +75,11 @@ h2{
 
 .writings2, .writings3{
     text-align: center;
-    padding: 0;
+    padding: 1rem 0rem 3rem 0rem;
+    
 }
 
-.writings3{
-    margin-bottom: 1rem;
-}
+
 
 .shopLink{
     padding-left: 1rem;
@@ -121,10 +120,12 @@ h2{
 .backgroudimage3, .backgroudimage4{
     background-image: url(/assets/img/img_9.png);
     height: 55vh;
+    width: 100%;
+    box-sizing: border-box;
     background-position: bottom;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat; 
-    margin-bottom: 1.5rem;
+    
 }
 
 .backgroudimage4{
