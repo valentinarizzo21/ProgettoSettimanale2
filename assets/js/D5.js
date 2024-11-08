@@ -136,12 +136,13 @@ const numericArray = [
 
 let i = 0;
 
-while (numericArray[i] !== 32) {
+while (i < numericArray.length){
   console.log(numericArray[i]);
+  if(numericArray[i] === 32){
+    break;
+  }
   i++;
 }
-
-console.log(numericArray[i]);
 
 
 /* ESERCIZIO 10
