@@ -25,6 +25,11 @@ ul li{
     color: white;
 }
 
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
 main{
     margin: 2rem 3rem;
     text-align: center;
